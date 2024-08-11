@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "python-mvp"
+version = "0.1.0"
+description = ""
+authors = ["Dave Yonkers <daveyonks@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+lgpio = "^0.2.2.0"
+argparse = "^1.4.0"
+influxdb_client = "^1.44.0"
+pandas = "^2.2.2"
+
+[tool.poetry.group.lint.dependencies]
+ruff = "*"

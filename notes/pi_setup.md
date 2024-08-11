@@ -10,7 +10,7 @@ sudo apt-get install raspi-config i2c-tools
 sudo raspi-config
 ```
 
-Then, if an i2c device is attached, you should be able to run `i2cdetect` to see its address. `-y` skips a silly warning prompt (warnings are for suckers, just full send it) and `1` is the i2c device index.
+Then, if an i2c device is attached, you should be able to run `i2cdetect` to see its address. `-y` skips a silly warning prompt (warnings are for suckers, just send it) and `1` is the i2c device index.
 
 ```bash
 i2cdetect -y 1
